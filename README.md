@@ -1,15 +1,19 @@
-## Final Project for CS420
+## Final Machine Learning Project for CS420 SJTU 2019
 
 ------
-
-
 
 #### Description
 
 ------
 
-This is the course final project for CS420, which is a classification test on the facial expression dataset fer2013. The soruce code are in the `src` folder.
+This is the course final project for CS420, which is a classification test on the facial expression dataset fer2013. The soruce code are in the `src` folder. 
 
+#### Team Members
+
+------
+
+- Bohong Wu	 吴薄鸿 516030910365
+- Hao Sun    孙豪  516030910362
 
 
 #### Requirements
@@ -17,6 +21,7 @@ This is the course final project for CS420, which is a classification test on th
 ------
 
 - Numpy
+- matplotlib
 - scikit-learn
 - PyTorch
 - Advertorch
@@ -89,12 +94,3 @@ FGSM attack
 | Adversarial | 49.04%  |    54.86%    | 46.04%  |    57.15%    |
 
 To validate the results on the defenses methods, change the filepath in `/src/acc_on_attack`and modified the relative function. `python acc_on_attack.py`
-
-
-
-#### Team Members
-
-------
-
-- Bohong Wu	516030910365
-- Hao Sun     516030910362
