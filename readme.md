@@ -1,0 +1,100 @@
+## Final Project for CS420
+
+------
+
+
+
+#### Description
+
+------
+
+This is the course final project for CS420, which is a classification test on the facial expression dataset fer2013. The soruce code are in the `src` folder.
+
+
+
+#### Requirements
+
+------
+
+- Numpy
+- scikit-learn
+- PyTorch
+- Advertorch
+
+
+
+#### Usage
+
+------
+
+##### Train a model
+
+Before training any model, first make sure the relative paths are correct. We have provided our splited data in `data` folder.
+
+1. To train the basic VGG model, `python train_vgg.py`
+2. To train the HOG-embedded model, `python train_vgghog.py`
+3. To train a model with data augmented by Gaussian Noise, `python train_with_gaussian.py`
+
+The validation is provided with the training scripts.
+
+##### Pretrained models
+
+The pretrained models are available on [this link](https://pan.baidu.com/s/1cXxT9xbuysWjCKTrnu4ulQ)  with `kane` as the password.
+
+
+
+#### Training Curves
+
+------
+
+The accuracy curves.
+
+![Accuracy Curve](./figures/acc_all.png)
+
+The loss curves.
+
+![](./figures/loss_curve.png)
+
+
+
+#### Error Analysis
+
+------
+
+The confusion matrix. 
+
+![](./figures/confusem.png)
+
+
+
+#### Attacks
+
+------
+
+LinfPGDA attack. 
+
+![](./figures/linfPGDA.jpg)
+
+FGSM attack
+
+![](./figures/FGSM.jpg)
+
+#### Defenses
+
+------
+
+|   Method    | Raw VGG | Add Gaussian | Add DAE | DAE embedded |
+| :---------: | :-----: | :----------: | :-----: | :----------: |
+|  Original   | 65.28%  |    68.32%    | 49.04%  |    65.12%    |
+| Adversarial | 49.04%  |    54.86%    | 46.04%  |    57.15%    |
+
+To validate the results on the defenses methods, change the filepath in `/src/acc_on_attack`and modified the relative function. `python acc_on_attack.py`
+
+
+
+#### Team Members
+
+------
+
+- Bohong Wu	516030910365
+- Hao Sun     516030910362
