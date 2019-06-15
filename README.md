@@ -44,8 +44,7 @@ The validation is provided with the training scripts.
 
 ##### Pretrained models
 
-The pretrained models are available on [this link](https://pan.baidu.com/s/1cXxT9xbuysWjCKTrnu4ulQ)  with `kane` as the password.
-
+The pretrained models are available on [this link](https://pan.baidu.com/s/11ybxZubWYgcNzajODBBk4Q)  with no password.
 
 
 #### Training Curves
