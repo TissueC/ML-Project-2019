@@ -32,6 +32,9 @@ This is the course final project for CS420, which is a classification test on th
 
 ------
 
+##### Prepare data
+You can split the data into training.csv, valdata.csv, and testdata.csv. Or (recommanded) you can download the data on [this link](https://pan.baidu.com/s/1jMNWFiWYDHIScltZrv_9kQ ) with password zcy0
+
 ##### Train a model
 
 Before training any model, first make sure the relative paths are correct. We have provided our splited data in `data` folder.
@@ -44,7 +47,7 @@ The validation is provided with the training scripts.
 
 ##### Pretrained models
 
-The pretrained models are available on [this link](https://pan.baidu.com/s/11ybxZubWYgcNzajODBBk4Q)  with no password.
+The pretrained models are available on [this link](https://pan.baidu.com/s/11ybxZubWYgcNzajODBBk4Q) with no password.
 
 
 #### Training Curves
@@ -59,7 +62,14 @@ The loss curves.
 
 ![](./figures/loss_curve.png)
 
+#### Accuracy
 
+------
+
+|       Type      |  Basic  | HOG-embedded |
+| :-------------: | :-----: | :----------: |
+| Private accuracy| 72.67%  |    72.56%    |
+| Public accuracy | 70.44%  |    70.97%    |
 
 #### Error Analysis
 
