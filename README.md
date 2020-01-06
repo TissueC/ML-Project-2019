@@ -8,6 +8,8 @@
 
 This is the course final project for CS420, which is a classification test on the facial expression dataset fer2013. The soruce code are in the `src` folder. 
 
+The project report has been also uploaded (Jan, 2020). The whole following information can be found in the report.
+
 #### Team Members
 
 ------
